@@ -1,6 +1,3 @@
-Sure! Here's a **step-by-step README** for your Flask + Docker + Kubernetes project, written clearly and professionally. You can copy this into a `README.md` file.
-
----
 
 # Mini Flask App Deployment on Kubernetes
 
@@ -187,6 +184,4 @@ This project is open-source and free to use under the MIT License.
 
 ---
 
-If you want, I can also create a **visual, beginner-friendly version with diagrams** showing **Flask → Docker → Kubernetes flow** that can go directly in this README.
 
-Do you want me to do that?
