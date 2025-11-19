@@ -93,7 +93,8 @@ Visit: `http://127.0.0.1:5000`
 ```bash
 docker build -t mini_app:v1.0 .
 ```
-![alt text](<Screenshot from 2025-11-19 10-34-48.png>)
+<img width="1910" height="886" alt="Screenshot from 2025-11-19 10-34-48" src="https://github.com/user-attachments/assets/106f324c-9a64-4ef7-bf76-ded93c2dbadc" />
+
 
 2. Test locally:
 
@@ -107,7 +108,8 @@ docker run -p 5000:5000 mini_app:v1.0
 docker tag mini_app:v1.0 <dockerhub-username>/mini_app:v1.0
 docker push <dockerhub-username>/mini_app:v1.0
 ```
-![alt text](<Screenshot from 2025-11-19 10-54-17.png>)
+<img width="1910" height="886" alt="Screenshot from 2025-11-19 10-54-17" src="https://github.com/user-attachments/assets/12725100-55ab-419a-90e3-1c4abfa1713b" />
+
 ---
 
 ## **Kubernetes Deployment**
@@ -117,7 +119,8 @@ docker push <dockerhub-username>/mini_app:v1.0
 ```bash
 minikube start
 ```
-![alt text](<Screenshot from 2025-11-19 11-41-23.png>)
+<img width="1910" height="1061" alt="Screenshot from 2025-11-19 11-41-23" src="https://github.com/user-attachments/assets/68f8bdf1-e08b-41da-8596-1db1b122af5d" />
+
 
 2. Create a deployment:
 
@@ -136,7 +139,8 @@ kubectl expose deployment miniapp --type=NodePort --port=5000
 ```bash
 kubectl get pods
 ```
-![alt text](<Screenshot from 2025-11-19 11-27-57-1.png>)
+<img width="1910" height="886" alt="Screenshot from 2025-11-19 11-27-57" src="https://github.com/user-attachments/assets/ecb69d5b-667d-48bf-ae75-7ab1f09e6068" />
+
 
 5. Get service info:
 
@@ -151,7 +155,8 @@ kubectl get svc miniapp
 ```bash
 minikube service miniapp
 ```
-![alt text](<Screenshot from 2025-11-19 10-37-38.png>)
+<img width="1910" height="919" alt="Screenshot from 2025-11-19 11-40-26" src="https://github.com/user-attachments/assets/9c55dc26-f6a9-4671-96e9-5846b25cbb7a" />
+
 
 * Or open in browser:
 
